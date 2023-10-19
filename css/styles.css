@@ -1,0 +1,374 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.fondo{
+    background-color: #9999A1;
+}
+.fondohead {
+    background-image: url(../assets/fondohead.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.nav-link {
+        color: black;
+}
+.textNav {
+    font-size: 4rem;
+}
+
+.textNav2 {
+    font-size: 2rem;
+}
+
+.textNav2:hover {
+    font-size: 2.5rem;
+    transition: 0.5s;
+}
+
+.logo {
+    padding-left: 50px;
+    font-size: 1.5rem;
+    padding-top: 10px;
+    color: black;
+}
+
+.logo:hover {
+    font-size: 2.1rem;
+    transition: 0.5s;
+}
+
+.centro {
+    padding-top: 25vh;
+    font-size: 5rem;
+    color: rgb(0, 0, 0);
+}
+
+.flecha {
+    margin-top: 100px;
+    margin-left: 50%;
+    font-size: 2rem;
+}
+
+.flecha:hover {
+    color: white;
+    transition: 0.5s;
+}
+
+.contenedorImg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgSeccion {
+    width: 100%;
+    transition: all 0.6s ease;
+    background-repeat: no-repeat;
+    
+}
+
+.imgSeccion:hover {
+    transition: all 0.6s ease;
+    filter: brightness(70%);
+    position: relative;
+}
+
+.card {
+    margin-top: 80px;
+    margin-bottom: 80px;
+    border: solid #9999A1 1px;
+    border-radius: 22px;
+}
+
+.imgseccion:hover {
+    filter: brightness(30%);
+    transition: 0.5s;
+}
+
+.btnSeccion {
+    text-decoration: none;
+    padding: 15px 25px;
+    border: unset;
+    border-radius: 15px;
+    color: #ffffff;
+    z-index: 1;
+    background: #000000;
+    position: relative;
+    font-weight: 1000;
+    font-size: 17px;
+    -webkit-box-shadow: 4px 8px 19px -3px rgba(0, 0, 0, 0.27);
+    box-shadow: 4px 8px 19px -3px rgba(0, 0, 0, 0.27);
+    transition: all 250ms;
+    overflow: hidden;
+    margin-top: 70%;
+    font-size: 1.3rem;
+}
+
+.btnSeccion::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0;
+    border-radius: 15px;
+    background-color: #212121;
+    z-index: -1;
+    -webkit-box-shadow: 4px 8px 19px -3px rgba(0, 0, 0, 0.27);
+    box-shadow: 4px 8px 19px -3px rgba(0, 0, 0, 0.27);
+    transition: all 250ms;
+}
+
+.btnSeccion:hover {
+    color: #e8e8e8;
+}
+
+.btnSeccion:hover::before {
+    width: 100%;
+}
+
+
+.historia{
+    justify-content: center;
+    width: 95vh;
+    color: white;
+    padding-top: 40px;
+    line-height: 30px;
+    text-align: center;
+}
+
+.titulo{
+    font-size: 3rem;
+}
+
+.logoNosotros{
+    font-size: 2rem;
+    color: black;
+}
+
+.logoNosotros:hover{
+    transition-duration: 0.4s;
+    font-size: 2.2rem;
+    color: white;
+}
+.textNosotros{
+margin-top: 110px;
+font-size: 1.5rem;
+}
+
+
+.colBlack{
+    color: black;
+}
+
+.inputs{
+    width: 240px;
+    height: 40px;
+    margin: 20px;
+    border: 1px solid black;
+    border-radius: 9px;
+    
+}
+
+.ingreseTextarea{
+    margin: auto;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 9px;
+}
+
+.fondo2{
+    background-color: rgba(153, 153, 161, 0.261)
+}
+.fondo3{
+    background-color: rgba(153, 153, 161, 0.529)
+}
+
+.enviar{
+    width: 100px;
+    margin-bottom: 30px;
+}
+
+.buttons {
+    outline: none;
+    cursor: pointer;
+    border: none;
+    padding: 0.9rem 2rem;
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    position: relative;
+    display: inline-block;
+    letter-spacing: 0.05rem;
+    font-weight: 700;
+    font-size: 17px;
+    border-radius: 500px;
+    overflow: hidden;
+    background: #aaaeaaa3;
+    color: ghostwhite;
+}
+
+.buttons span {
+    position: relative;
+    z-index: 10;
+    transition: color 0.4s;
+}
+
+.buttons:hover span {
+    color: black;
+}
+
+.buttons::before,
+.buttons::after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+}
+
+.buttons::before {
+    content: "";
+    background: #000;
+    width: 120%;
+    left: -10%;
+    transform: skew(30deg);
+    transition: transform 0.4s cubic-bezier(0.3, 1, 0.8, 1);
+
+}
+.buttons:hover::before {
+    transform: translate3d(100%, 0, 0);
+}
+
+
+.fondo4{
+    background-color: rgba(153, 153, 161, 0.274)
+}
+
+.textNav3{
+margin: 30px;
+font-size: 1rem;
+}
+
+.logo2{
+    margin-top: 20px;
+    font-size: 1.5rem;
+}
+
+.btnDrop{
+    width: 120px;
+}
+
+.hrCard{
+    margin: 1px;
+    padding: 1px;
+}
+
+.pCard{
+    margin: 0;
+}
+
+.textCard{
+    font-size: 0.9rem;
+}
+
+.flechaLogo1{
+    margin-right: 40px;
+    margin-bottom: 60px;
+}
+.flechaLogo2{
+    margin-left: 40px;
+}
+
+.imgtama{
+
+    height: 14rem;
+}
+
+.navlink:hover{
+    transition: 0.5s;
+    font-size: 1.1rem;
+}
+
+.logonav:hover{
+    transition: 0.5s;
+    font-size: 1.7rem;
+}
+
+.cardHover:hover{
+    transition: 0.3s;
+    box-shadow: 1px 8px 20px grey;
+    -webkit-transition:  box-shadow .6s
+}
+
+.productoimg{
+    margin: 60px;
+    width: 65vh;
+    height: 65vh;
+
+}
+
+.tituloProd{
+    margin: 60px;
+    margin-bottom: 10px;
+    font-size: 2.5rem;
+}
+
+.carruselProd{
+    width: 80vh;
+    height: 70vh;
+    margin: 30px;
+}
+
+.carruselProd:hover{
+    transition: 0.5s;
+    width: 82vh;
+    height: 72vh;
+}
+
+.cardDetalles{
+    width: 53vh;
+    height: 63vh;
+    box-shadow: 1px 4px 10px grey;
+    border-radius: 5px;
+}
+
+.detalle{
+    font-weight: 700;
+    font-size: 1rem;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.respuesta{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.9rem;
+}
+
+.especificacionesTitulo{
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+
+.hrEspe{
+    width: 70vh;
+}
+
+.cajaEspe{
+    text-align: center;
+    width: 130vh;
+    justify-content: center;
+
+}
+
+.cajaDes{
+    width: 150vh;
+    justify-content: center;
+    margin-bottom: 50px;
+}

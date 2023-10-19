@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Prodean</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css"/>
+    <link rel="stylesheet" href=".//css/styles.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <section class="fondohead ">
+        <article>
+          <nav class="navbar navbar-expand-lg ">
+            <div class="container">
+              <div>
+                <a class="navbar-brand textNav" href="#">Prodean</a>
+              </div>
+              <div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav">
+                    <li class="nav-item textNav2">
+                      <a class="nav-link" href="#Contacto" >Contactanos</a>
+                    </li>
+                    <li class="nav-item logo">
+                      <a class="nav-link" href="#"><i class="bi bi-instagram"></i></a>
+                    </li>
+                    <li class="nav-item logo">
+                      <a class="nav-link" href="#"><i class="bi bi-facebook"></i></a>
+                    </li>
+                </div>
+              </div> 
+            </div>
+          </nav>
+        </article> 
+        <article>
+          <div>
+            <h1 class="text-center centro">¡Encuentra tu hogar!</h1>
+            <a href="#secciones" class="text-black"><i class="bi bi-arrow-down-circle-fill flecha"></i></a>
+          </div>
+        </article>
+      </section>  
+    </header>
+    
+    <main>
+      <section class="container-fluid d-flex justify-content-evenly fondo">
+        <article>
+          <div class="card align-items-center shadow-sm mb-5 bg-body rounded-4" id="secciones" data-aos="flip-left" style="width: 25rem;">
+            <a href="./pages/casas.html"><img src="./assets/casa.jpg" class="card-img-top imgSeccion" alt="casas"></a>
+            <a class="position-absolute btnSeccion" href="./pages/casas.html">Casas</a>
+          </div>
+        </article>
+        <article>
+          <div class="card align-items-center shadow-sm mb-5 bg-body rounded-4" data-aos="flip-up" style="width: 25rem;">
+            <a href="./pages/habitaciones.html"><img src="./assets/habitacion.jpg" class="card-img-top imgSeccion" alt="habitaciones de hotel"></a>
+            <a class="position-absolute btnSeccion" href="./pages/habitaciones.html">Habitaciones</a>
+          </div>
+        </article>
+        <article>
+          <div class="card align-items-center shadow-sm mb-5 bg-body rounded-4" data-aos="flip-right" style="width: 25rem;">
+            <a href="./pages/departamentos.html"><img src="./assets/apartamentos.jpg" class="card-img-top imgSeccion" alt="apartamentos"></a>
+            <a class="position-absolute btnSeccion" href="./pages/departamentos.html">Apartamentos</a>
+          </div>
+        </article>
+      </section>
+
+      <section class="fondo">
+        <article>
+          <div class=" align-content-center">
+            <h2 class="text-center pt-4 titulo" id="nosotros">Nosotros</h2>
+          </div>
+        </article>
+        <article class="w-100" data-aos="fade-right">
+          <div class="fondo d-flex justify-content-center">
+            <div class="historia text-black fs-5">
+              <p>"PRODEAN: Propiedades únicas y servicio excepcional. Descubre nuestra selección cuidadosa de propiedades destacadas. Experiencia inmobiliaria personalizada y plataforma interactiva. Encuentra tu hogar ideal o invierte con confianza.""</p>
+            </div>
+          </div>
+          <article class="d-flex justify-content-evenly fondo">
+            <div class="contenedor ">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d2437.8485925856985!2d-68.84697007138354!3d-32.911627428497354!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sMendoza%20San%20Martin%20McDonalds!5e0!3m2!1ses!2sar!4v1687688134641!5m2!1ses!2sar" class="pt-5 pb-5" width="500" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="text-black text-center textNosotros">
+              <h3 class="pt-4">Encuentranos en:</h3>
+              <span class="">Av. San Martín 1202, M5501 Godoy Cruz, Mendoza</span>
+              <div class="d-flex justify-content-around mt-3">
+                <a class="nav-link" href="#"><i class="bi bi-instagram logoNosotros"></i></a>
+                <a class="nav-link" href="#"><i class="bi bi-facebook logoNosotros"></i></a>
+              </div>  
+            </div>
+          </article>
+        </article>
+      </section>
+      <section class="fondo3 ">
+        <article class="container-fluid d-flex justify-content-around align-items-center pt-5">
+          <div class="w-50 text-center">
+            <p class="fs-3">Formulario de Contacto</p>
+            <p class="fs-5">Nuestro equipo te contactara al email que ingreses</p>
+          </div>
+          <form class="d-flex w-50" data-aos="fade-right">
+            <div class="justify-content-evenly">
+              <input type="text" name="" id="Contacto" placeholder="  Nombre" class="inputs">
+              <input type="text" name="" id="" placeholder="  Correo" class="inputs">
+              <div class="container d-flex justify-content-center">
+                <textarea name="" id="" cols="40" rows="10" class="ingreseTextarea m-4" placeholder="   Ingrese su mensaje.."></textarea>
+              </div>
+              <div class="container d-flex justify-content-center">
+                <button class="mb-5 buttons"><span>Enviar</span></button>
+              </div>
+            </div>
+          </form>
+        </article>
+      </section>
+    </main>
+    <footer class="fondo4 pt-5">
+      <div class="container-fluid">
+        <div class="row p-5 text-center">
+          <div class="col-xs-12 col-md-6 col-lg-4">
+            <p class="fs-4">Contactanos</p>
+            <p>+54 9 261 678-4356</p>
+            <p>ProdeanInmobiliaria.gmail.com</p>
+          </div>
+          <div class="col-xs-12 col-md-6 col-lg-4">
+            <p class="fs-4">Navegacion</p>
+            <p><a href="#" class="text-dark">Inicio</p></a>
+            <p><a href="#nosotros" class="text-dark">Nosotros</p></a>
+            <p><a href="#Contacto" class="text-dark">Contacto</p></a>
+          </div>
+          <div class="col-xs-12 col-md-6 col-lg-4">
+            <p class="fs-4">Seguinos</p>
+            <div class="d-flex justify-content-evenly">
+            <a href="" class="text-dark"> <i class="bi bi-instagram logoNosotros "></i></a>
+            <a href="" class="text-dark"><i class="bi bi-facebook logoNosotros"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
